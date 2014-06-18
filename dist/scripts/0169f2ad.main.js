@@ -1,1 +1,0 @@
-$(window).resize(function(){$(window).width()<=1e3&&$(".shark-image").hide(),$(window).width()>=1e3&&$(".shark-image").show()});
