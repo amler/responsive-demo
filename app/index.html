@@ -18,6 +18,7 @@
         <!-- build:js scripts/vendor/modernizr.js -->
         <script src="../bower_components/modernizr/modernizr.js"></script>
         <!-- endbuild -->
+        <script src="scripts/picturefill.min.js" async></script>
 
     </head>
     <body>
@@ -67,14 +68,14 @@
 
        
         <!-- build:js scripts/vendor.js -->
-        <!-- bower:js -->
         <script src="../bower_components/jquery/dist/jquery.js"></script>
+        <!-- bower:js -->
         
         <script>
         // Picture element HTML5 shiv
             document.createElement( "picture" );
         </script>
-        <script src="scripts/picturefill.min.js" async></script>
+
         <script src="scripts/jquery.fittext.js"></script>
         <script>
             jQuery(".whale-shark").fitText(1.2);
